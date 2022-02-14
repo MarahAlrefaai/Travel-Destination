@@ -6,12 +6,12 @@ import Tours from '../tours/Tours.js';
 function Home(props) {
 
   return (
-    <>
+    <div>
 
       <Header />
       <Tours tourData={props.data}/>
       <Footer />
-    </>
+    </div>
   );
 }
 
