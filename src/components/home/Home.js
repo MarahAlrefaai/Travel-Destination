@@ -9,7 +9,7 @@ function Home(props) {
     <div>
 
       <Header />
-      <Tours tourData={props.data}/>
+      <Tours travelData={props.data}/>
       <Footer />
       
     </div>
